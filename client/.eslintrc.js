@@ -44,9 +44,6 @@ module.exports = {
         "lines-around-comment": "off",
         "camelcase": "off",
         "no-console": "off",
-        "eqeqeq": [
-            "error",
-            "smart"
-        ]
+        "eqeqeq": "off"
     }
 };
