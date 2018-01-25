@@ -65,9 +65,34 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /srv/initialillusion/client/src/js/main.js: Unexpected token (8:0)\n\n  6 | \n  7 | import { setup3d }\n> 8 | \n    | ^\n    at Parser.raise (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:832:15)\n    at Parser.unexpected (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:2212:16)\n    at Parser.expectContextual (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:2172:41)\n    at Parser.parseImport (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:5508:12)\n    at Parser.parseStatementContent (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:4291:27)\n    at Parser.parseStatement (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:4206:17)\n    at Parser.parseBlockOrModuleBlockBody (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:4764:23)\n    at Parser.parseBlockBody (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:4750:10)\n    at Parser.parseTopLevel (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:4174:10)\n    at Parser.parse (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:5613:17)\n    at parse (/srv/initialillusion/client/node_modules/@babel/core/node_modules/babylon/lib/index.js:10552:38)\n    at parser (/srv/initialillusion/client/node_modules/@babel/core/lib/transformation/normalize-file.js:106:33)\n    at normalizeFile (/srv/initialillusion/client/node_modules/@babel/core/lib/transformation/normalize-file.js:53:11)\n    at runSync (/srv/initialillusion/client/node_modules/@babel/core/lib/transformation/index.js:34:41)\n    at transformSync (/srv/initialillusion/client/node_modules/@babel/core/lib/transform-sync.js:15:38)\n    at Object.transform (/srv/initialillusion/client/node_modules/@babel/core/lib/transform.js:20:65)\n    at transpile (/srv/initialillusion/client/node_modules/babel-loader/lib/index.js:55:20)\n    at Object.module.exports (/srv/initialillusion/client/node_modules/babel-loader/lib/index.js:179:20)");
+"use strict";
+
+
+var _dsetup = __webpack_require__(1);
+
+var canvasmain = document.getElementById("gamemain");
+var ctx = canvasmain.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+(0, _dsetup.setup3d)();
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setup3d = setup3d;
+
+function setup3d() {//Do stuff
+}
 
 /***/ })
 /******/ ]);

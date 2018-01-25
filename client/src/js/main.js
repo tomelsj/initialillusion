@@ -4,5 +4,5 @@ ctx.moveTo(0, 0);
 ctx.lineTo(200, 100);
 ctx.stroke();
 
-import { setup3d } from "3dsetup.js";
+import { setup3d } from "./3dsetup.js";
 setup3d();
