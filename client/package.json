@@ -1,0 +1,25 @@
+{
+  "name": "initialillusion",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/js/main.js",
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^8.0.0-beta.0",
+    "eslint": "^4.14.0",
+    "eslint-config-jquery": "^1.0.1",
+    "eslint-loader": "^1.9.0",
+    "rek": "^0.3.5",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "nodemon --watch src -x 'npm run build'"
+  },
+  "dependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
